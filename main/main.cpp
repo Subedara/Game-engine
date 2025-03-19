@@ -1,9 +1,9 @@
 #include <iostream>
 #include <engine.hpp>
 using namespace std;
-
+using namespace engine;
 
 int main() {
-  cout << "Hello World!";
+  init();
   return 0;
 }
